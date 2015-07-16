@@ -1,0 +1,17 @@
+name: GoPvp
+main: MiniGame.mainClass
+description: пвп бой 1на1 
+version: 1.0.0
+commands:
+  gopvp:
+    description: отправить игроку смс с боем 
+    usage: /gopvp <PlayerName>
+  pvpaccept:
+    description: принять бой от игрока
+    usage: /pvpaccept
+  savepos1:
+    description: установить точку спавна 1
+    usage: /savepos1
+  savepos2:
+    description: установить точку спавна 2
+    usage: /savepos2
